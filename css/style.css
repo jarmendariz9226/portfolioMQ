@@ -1,0 +1,285 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/*custom styles */
+#intro{
+  height: 600px;
+}
+#intro {
+  padding-top: 0;
+  background: #8A8A89 url("../images/header.jpg") top center repeat-y;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
+
+.intro-section-text {
+  text-align: center;
+  padding-top: 20%;
+  color: #f7f7f7;
+}
+
+.btn{
+  margin-top: 60px;
+}
+
+.intro-section h1 {
+  font-size: 5em;
+  padding-bottom: 10px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 3px solid #57BC90;
+}
+
+.intro-section p {
+  font-size: 1.1em;
+  text-align: center;
+
+}
+
+.intro-section .btn {
+  margin-top: 2%;
+}
+
+
+/*about */
+
+#about {
+  font-family: 'Playfair Display', serif;
+  background: #eee;
+}
+
+#about h1 {
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 2px solid black ;
+  margin-bottom: 25px;
+}
+
+.about-section-info {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.about-section-info img {
+  width: 50%;
+  height: 250px;
+  display: block;
+  margin:0 auto;
+  border-radius: 20px;
+  transition: .8s;
+  margin-bottom: 15px;
+}
+
+.about-section-info img:hover {
+  opacity: .7;
+
+  transition: .8s;
+}
+
+.about-section-info p {
+  width: 90%;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 32px;
+  letter-spacing: 1px;
+  padding:  0 10px;
+
+}
+
+
+/*recent adventures */
+
+#adventures h1 {
+  font-size: 3.5em;
+  text-align: center;
+  width: 90%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.adventures-images {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 10px;
+  transition: .8s;
+}
+
+.adventures-images img {
+  width: 50%;
+  float: left;
+  height: 280px;
+  padding-top: 10px;
+}
+.lame{
+  padding-right: 10px;
+}
+
+.adventures-images img:hover {
+  opacity: .8;
+  border-radius: 15px;
+  transition: .6s;
+}
+
+
+
+/*portfolio*/
+#portfolio {
+  background: #eee;
+}
+#portfolio h1 {
+  font-size: 3.5em;
+  text-align: center;
+  width: 90%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.portfolio-slide {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.madrid{
+  background: #8A8A89 url("../images/travel1.jpg") top center repeat-y;
+  background-size: cover;
+  width: 30%;
+  height: 20px;
+}
+
+/*carousel */
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:680px;
+}
+.carousel-caption{
+  background: black ;
+  opacity: .7;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+.carousel-caption ul li{
+  list-style: none;
+}
+.carousel-caption-text{
+  width: 50%;
+  float: left;
+}
+.carousel-caption-text-1{
+  width: 50%;
+  float: right;
+}
+
+/*skills */
+
+#skills h1{
+  font-size: 3.5em;
+  width: 90%;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.skills-showcase{
+    /*background: red; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.skill-block{
+    background: #F7F7F7;
+    width: 48%;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+.skill-block img{
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin-bottom: 5px;
+}
+.skill-block p{
+    width: 65%;
+    float: left;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+
+/*contact */
+#contact{
+  color: #FBFBFB;
+  background: #090909;
+  padding-top: 15px;
+}
+.social-media{
+  width: 50%;
+  font-size: 1.1em;
+  margin-left: 50px;
+}
+.social-media ul{
+  margin: 0;
+  padding: 0;
+}
+.social-media ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.address{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 5.3em;
+  width: 50%;
+  line-height: 60px;
+  position: relative;
+  padding: 10px 0;
+}
+.contact-message{
+  width: 45%;
+  float: right;
+  margin-right: 50px;
+  padding: 10px;
+  font-size: 2.3em;
+  line-height: 50px;
+}
+
+.contact-map{
+  margin-left: 50px;
+}
+
+footer{
+  text-align: center;
+  font-size: 1.1em;
+  height: 8%;
+  padding-top: 25px;
+}

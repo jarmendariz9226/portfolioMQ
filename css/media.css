@@ -1,0 +1,229 @@
+@media screen and (max-width: 640px) {
+    .intro-section-text {
+      padding-top: 20%;
+      color: #f7f7f7;
+    }
+
+    .intro-section h1 {
+      font-size: 3em;
+      padding-bottom: 10px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      border-bottom: 1px solid #57BC90;
+    }
+    /*about */
+    #about h1{
+        width: 98%;
+        line-height: 48px;
+        border-bottom: 1px solid black;
+        padding-top: 20px;
+    }
+
+    .about-section-info img {
+        width: 70%;
+        height: 220px;
+        border-radius: 50%;
+        text-align: center;
+        transition: .8s;
+    }
+    .about-section-info p {
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    /*recent adventures */
+    #adventures h1{
+        margin: 0;padding-top: 15px;
+        text-align: center;
+        width: 100%;
+        border-bottom: none;
+    }
+    .adventures-images {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .adventures-images img {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    /*portfolio */
+
+    #portfolio h1 {
+      margin:0;
+      padding: 0;
+      padding-top: 10px;
+      font-size: 3.5em;
+      text-align: center;
+      width: 100%;
+      border-bottom: none;
+    }
+    .portfolio-slide {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    .carousel-inner > .item > img {
+      width:100%;
+      height:550px;
+    }
+    .carousel-caption{
+      background: black ;
+      opacity: .7;
+      border-radius: 20px;
+    }
+    .carousel-caption-text{
+      width: 100%;
+      float: none;
+    }
+    .carousel-caption-text-1{
+      width: 100%;
+      float: none;
+    }
+
+    /*skills*/
+    #skills h1{
+      margin: 0;
+      padding-top: 10px;
+      font-size: 3.5em;
+      text-align: center;
+      width: 100%;
+      border-bottom: none;
+      padding-bottom: 10px;
+    }
+    .skills-showcase{
+        /*background: red; */
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding: 0;
+    }
+    .skill-block{
+        background: #F7F7F7;
+        width: 100%;
+        padding: 10px;
+        float:none;
+        margin: 0;
+    }
+    .skill-block img{
+        width: 25%;
+        height: 100px;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    /*contact */
+    .social-media{
+      width: 100%;
+      font-size: 1.1em;
+      margin: 0;
+    }
+    .social-media p{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .social-media ul{
+      display: block;
+      margin: 0 auto;
+    }
+    .social-media ul li{
+      list-style: none;
+      display: inline-block;
+      margin-left: 20px;
+
+    }
+    .address{
+      margin: 0;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 5.3em;
+      width: 100%;
+      line-height: 65px;
+      position: relative;
+      padding: 10px 0;
+    }
+    .contact-message{
+      width: 100%;
+      padding-top: 40px;
+      float: none;
+      margin:0;
+      text-align: center;
+      padding: 10px;
+      font-size: 2.3em;
+    }
+    .contact-map{
+      display: none;
+    }
+}
+
+/*===========================  image =========*/
+@media screen and (max-width: 520px) {
+
+    .about-section-info img {
+        width: 60%;
+        height: 180px;
+        transition: .8s;
+    }
+
+}
+
+/*======= 980 media =============== */
+@media screen and (min-width: 980px){
+    .about-section-info {
+        padding: 20px;
+    }
+
+    .about-section-info img {
+      width: 30%;
+      float: left;
+      height: 350px;
+      display: block;
+      margin:0 auto;
+      border-radius: 20px;
+      transition: .8s;
+      margin-bottom: 15px;
+    }
+    .about-section-info p {
+      width: 65%;
+      float: right;
+      text-align: left;
+    }
+
+    .adventures-images {
+      width: 100%;
+      padding: 20px;
+    }
+    .adventures-images img {
+     height: 350px;
+    }
+    #portfolio {
+     padding: 20px;
+    }
+
+    #skills{
+        width: 100%;
+        padding: 20px;
+
+    }
+    .skills-showcase{
+        padding: 0;
+        margin: 0;
+        padding-left: 55px;
+    }
+    .skill-block{
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    width: 47%;
+    }
+
+    #wow, #wow2, #wow3{
+        margin-right: 5px;
+    }
+}
